@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, ElementRef } from '@angular/core';
-import { Node, TreeTableNode, Options, SearchableNode } from '../models';
+import { Node, Nodo, TreeTableNode, Options, SearchableNode } from '../models';
 import { TreeService } from '../services/tree/tree.service';
 import { MatTableDataSource } from '@angular/material';
 import { ValidatorService } from '../services/validator/validator.service';
