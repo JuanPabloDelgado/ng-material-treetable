@@ -25,4 +25,9 @@ export interface Options<T> {
   highlightRowOnHover?: boolean;
   customColumnOrder?: Array<keyof T> & string[];
 	elevation?: number;
+	firstColumnMinWidth?: string;
+	firstColumnMaxWidth?: string;
+	defaultColumnMinWidth?: string;
+	defaultColumnMaxWidth?: string;
+
 }

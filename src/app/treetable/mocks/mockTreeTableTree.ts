@@ -5,6 +5,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
   value: {
     name: 'Reports',
     owner: 'Eric',
+    column2: '',
+    column3: '',
+    column4: '',
+    column5: '',
+    column6: '',
+    column7: '',
     protected: true,
     backup: true
   },
@@ -13,6 +19,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
       value: {
         name: 'Charts',
         owner: 'Stephanie',
+        column2: '',
+        column3: '',
+        column4: '',
+        column5: '',
+        column6: '',
+        column7: '',
         protected: false,
         backup: true
       },
@@ -26,6 +38,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
       value: {
         name: 'Sales',
         owner: 'Virginia',
+        column2: '',
+        column3: '',
+        column4: '',
+        column5: '',
+        column6: '',
+        column7: '',
         protected: false,
         backup: true
       },
@@ -39,6 +57,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
       value: {
         name: 'US',
         owner: 'Alison',
+        column2: '',
+        column3: '',
+        column4: '',
+        column5: '',
+        column6: '',
+        column7: '',
         protected: true,
         backup: false
       },
@@ -47,6 +71,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
           value: {
             name: 'California',
             owner: 'Claire',
+            column2: '',
+            column3: '',
+            column4: '',
+            column5: '',
+            column6: '',
+            column7: '',
             protected: false,
             backup: false
           },
@@ -60,6 +90,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
           value: {
             name: 'Washington',
             owner: 'Colin',
+            column2: '',
+            column3: '',
+            column4: '',
+            column5: '',
+            column6: '',
+            column7: '',
             protected: false,
             backup: true
           },
@@ -68,6 +104,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
               value: {
                 name: 'Domestic',
                 owner: 'Oliver',
+                column2: '',
+                column3: '',
+                column4: '',
+                column5: '',
+                column6: '',
+                column7: '',
                 protected: true,
                 backup: false
               },
@@ -81,6 +123,12 @@ export const mockTreeTableTree: TreeTableNode<Folder> = {
               value: {
                 name: 'International',
                 owner: 'Oliver',
+                column2: '',
+                column3: '',
+                column4: '',
+                column5: '',
+                column6: '',
+                column7: '',
                 protected: true,
                 backup: true
               },

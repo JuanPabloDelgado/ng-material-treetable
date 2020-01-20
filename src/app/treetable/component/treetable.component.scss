@@ -1,6 +1,31 @@
+
+// TODO
+.example-container {
+  width: 100%;
+  overflow: auto;
+}
+
 table {
   width: 100%;
 }
+
+td.mat-column-star {
+  width: 50px;
+  padding-right: 8px;
+}
+
+th.mat-column-position, td.mat-column-position {
+  padding-left: 8px;
+}
+
+.mat-table-sticky:first-child {
+  border-right: 1px solid #e0e0e0;
+}
+
+.mat-table-sticky:last-child {
+  border-left: 1px solid #e0e0e0;
+}
+//TODO
 
 .value-cell {
   display: flex;
@@ -15,11 +40,11 @@ mat-icon {
   background-color: #f0f0f5;
 }
 
-td[class*=' mat-column']{
-  width: 10vw;
-  min-width: 10vw;;
-  max-width: 10vw;
-}
+//td[class*=' mat-column']{
+//  width: 10vw;
+//  min-width: 10vw;;
+//  max-width: 10vw;
+//}
 
 .mat-cell, .mat-header-cell {
   padding: 10px;
